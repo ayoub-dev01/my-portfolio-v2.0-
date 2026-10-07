@@ -330,7 +330,9 @@ h2 {
   border-radius: 20px;
   width: 120px;
   height: 120px;
-
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .h1 {
   color: rgb(208, 60, 23);
@@ -833,6 +835,7 @@ h2 {
 .div00 {
   display: flex;
   justify-content: space-around;
+  
 }
 .a1 {
   color: black;
@@ -1016,9 +1019,18 @@ h2 {
 
   /* Footer */
   .div00 {
+    display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+  }
+  .div00 .a1,
+  .div00 .a2,
+  .div00 .a3,
+  .div00 .a4 {
+    width: 140px;
+    box-sizing: border-box;
+    text-align: center;
   }
 
   .h3footer {
